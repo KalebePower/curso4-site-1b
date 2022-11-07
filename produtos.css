@@ -17,11 +17,16 @@ h1 {
     display: inline;
 }
 
+.caixa-nav {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
 nav {
-    display: inline-block;
     position: absolute;
-    right: 30px;
-    top: 110px;
+    top:110px;
+    right:0;
 }
 
 nav li {
@@ -37,14 +42,3 @@ nav a {
     text-decoration: none;
 }
 
-nav {
-    position: absolute;
-    top:110px;
-    right:0;
-}
-
-.caixa-nav {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
